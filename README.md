@@ -1,27 +1,73 @@
-# TaskManagerAngular
+# Task Manager Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+A simple task management application built with Angular.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Add new tasks.
+- Mark tasks as completed.
+- Delete tasks.
+- Filter tasks by all, active, or completed status.
+- Responsive design for desktop and mobile screens.
 
-## Code scaffolding
+## Technologies
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- TypeScript
+- HTML
+- CSS
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Installation
 
-## Running unit tests
+Clone the repository and open the project folder:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+git clone [https://github.com/AzizaBekmurodova/task-manager-angular.git](https://github.com/AzizaBekmurodova/task-manager-angular.git)
+cd task-manager-angular
+```
 
-## Running end-to-end tests
+Install the dependencies:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+npm install
+```
 
-## Further help
+### Run the application
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Start the development server:
+
+```bash
+ng serve
+```
+
+Open the application in your browser:
+
+```text
+http://localhost:4200
+```
+
+## Usage
+
+1. Enter a task in the input field.
+2. Click **Add Task**.
+3. Click a task to mark it as completed.
+4. Use **Delete** to remove a task.
+5. Use the filters to view all, active, or completed tasks.
+
+## Project Structure
+
+```text
+src/
+├── app/
+│   ├── app.component.html
+│   ├── app.component.css
+│   └── app.component.ts
+├── index.html
+└── main.ts
+```
+
+## Author
+
+Aziza Bekmurodova
